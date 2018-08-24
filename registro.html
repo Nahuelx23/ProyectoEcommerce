@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:300,400,500,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/estilos.css">
+
+        <title>Eccomerce</title>
+    </head>
+<body>
+    <!-- HEADER -->
+    <div class="container">
+        <header class="main-header">
+            <nav class="nav-logo-icon">
+                <div class="cajalogo">
+                    <img src="imagenes/logo.png" alt="logotipo" class="logo">
+                </div>
+
+                <div class="nav-iconos">
+                    <ul>
+                        <li><a href="registro.html">Sign Up</a></li>
+                        <li><a href="login.html"><i class="fas fa-user"></i></a></li>
+                        <li><i class="fas fa-cart-arrow-down"></i></li>
+                    </ul>
+                </div>
+
+                <ul class="nav-menu">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="shop.html">shop</a></li>
+                    <li><a href="contacto.html">contacto</a></li>
+                    <li><a href="faq.html">faq</a></li>
+                </ul>
+
+                <form class="buscador-completo" action="" method="post">
+                    <input type="text" placeholder=" producto" name="producto">
+                    <button type="button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </nav>
+        </header>
+    </div>
+    <!-- FIN HEADER --> 
+
+    <!-- REGISTRO --> 
+    <div class="mainPage">
+        <div class="mainContainer">
+            <div class="mainSignUp">
+                <h1 class="tituloSignUp">Registro</h1>
+            </div>
+
+            <form class="mainFormSignUp" action="" method="GET">
+
+                <div class="infoSpaceSignUp">
+                    <input class="inputNombre" type="text" placeholder="Nombre completo" name="nombre" required>
+                    <input class="inputApellido" type="text" placeholder="Apellido" name="apellido" required>
+                </div>
+                <div class="infoSpaceSignUp">
+                    <input class="inputMail" type="email" placeholder="Direccion de eMail" name="email" required>
+                </div>
+                <div class="infoSpaceSignUp">
+                    <input class="inputNacimiento" type="text" placeholder="Fecha de nacimiento (dd/mm/yyyy)" name="nombre" required>
+                </div>
+                <div class="infoSpaceSignUp">
+                    <input class="inputContraseña" type="password" placeholder="Elija una contraseña" name="contraseña" required>
+                    <input class="inputReContraseña" type="password" placeholder="Repita su contraseña" name="reContraseña" required>
+                </div>
+
+                <div class="infoSpaceSignUp">
+                    <div class="infoSpaceGenero">
+                        <legend class="textGenero">Género:</legend>
+                    </div>
+                    <div class="infoSpaceGenero">
+                        <div class="generoButtons">
+                            <label for="masculino">Masculino</label>
+                            <input type="radio" name="genero" value="masculino">
+                            <br>
+                            <label for="femenino">Femenino</label>
+                            <input type="radio" name="genero" value="femenino">
+                            <br>
+                            <label for="otro">Otro</label>
+                            <input type="radio" name="genero" value="otro">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="infoTerminosCondiciones">
+                    <label class="terminosCondiciones" for="terminos">Acepto los terminos y condiciones</label>
+                    <input class="checkTerminos" type="checkbox" name="terminos" required>
+                </div>
+
+                <button class="buttonSendSignIn" type="submit">Registrarse</button>
+            </form>
+        </div>
+    </div>
+    <!-- FIN REGISTRO --> 
+
+    <footer>
+        <h3>copyright</h3>
+
+        <!-- Redes -->
+        <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>Gmail</li>
+        </ul>
+    </footer>
+
+</body>
+</html>
