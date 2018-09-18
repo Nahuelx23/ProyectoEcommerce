@@ -1,0 +1,15 @@
+{"username":"Maria Soledad","email":"maria@hotmail.com","password":"$2y$10$.VBlbsS8.w1xrz0uzzXfae9nL8gmsiYAvlp3QEB9v80CECCgnYFUK","fotoPerfil":"5b9fd1b2df8dd.JPG"}
+{"username":"Maria Soledad","email":"maria@hotmail.com","password":"$2y$10$TqEXRv7c6CiGUk.YSItqt.KBA16HsbNNTCFieQHWdbkkDXTJ10Kx6","fotoPerfil":"5b9fd1ed36a08.JPG"}
+{"username":"Pedro","email":"pedro@hotmail.com","password":"$2y$10$VlkeEtocqajhK5ieGh7J7Oubjjmf3eDCDfggH03YSutA7XD82\/Ave","fotoPerfil":"5b9fd2245b34a.JPG"}
+{"username":"Pedro","email":"pedro@hotmail.com","password":"$2y$10$aZ55F.8T\/XADO2u4uyNn2ewHTg6BQp.OdmWY2r0xwbmFBrP1vdmbW","fotoPerfil":"5b9fd8da868c4.JPG"}
+{"username":"Juan","email":"juan@hotmail.com","password":"$2y$10$b.4AkZBs.z4OTs3ltDHKKOoor2iyLpDW0Jdq1Jq9qg970G261j.te","fecha":01/01/2001,"fotoPerfil":"5b9fdf059c0cc.JPG"}
+{"username":"Nahuel","email":"nahuel@hotmail.com","password":"$2y$10$gPE.n5lX7A4pNERVm\/PUk.XqCO\/A56FFdf9TtHaLEQvcV4yDlw6lG","fotoPerfil":"5b9ff3b3cbfae.JPG"}
+{"username":"Nahuel","email":"nahuel@hotmail.com","password":"$2y$10$eEHd.S4iJL2Azz0wQLrtNeqaGgJeBtJ2KtexpYRz09QtW9hA\/uDIW","fotoPerfil":"5b9ff40508705.JPG"}
+{"username":"Nahuel Javier","email":"nahuel@hotmail.com","password":"$2y$10$vlWYM\/VOgDiJJLYI6jXDj.Np3oRkYg38tzj60u44.Go55wvSHw5DW","fotoPerfil":"5b9ff4cb56680.JPG"}
+{"username":"Claudia","email":"clau@hotmail.com","password":"$2y$10$QAIxnuSgglvmhs3ZGjTlVe0S4ClFnug.v5yF.85b5K8wlkIWujnna","fotoPerfil":"5b9ffa374eeda.JPG"}
+{"username":"Sandra","email":"sandra@hotmail.com","password":"$2y$10$2OJcomfCARxx7DnrE88ZXueFWIIS7EGy4M0Nq6o.A5y930KZBndIC","fecha":{"name":"DSC02237.JPG","type":"image\/jpeg","tmp_name":"\/Applications\/MAMP\/tmp\/php\/php3lRHAn","error":0,"size":1237016},"fotoPerfil":"5ba00ed6d993b."}
+{"username":"Miguel","email":"miguel@hotmail.com","password":"$2y$10$PX\/PTId93sQNXG11rTJVH.nwENK.VvWcttVItg7UFCqxjLI6G0jLS","fecha":{"name":"DSC02239.JPG","type":"image\/jpeg","tmp_name":"\/Applications\/MAMP\/tmp\/php\/phpqkd5JG","error":0,"size":1043139},"fotoPerfil":"5ba010127ca12."}
+{"username":"Silvia","email":"silvia@hotmail.com","password":"$2y$10$MtJplCxLMP8YMtSfQKOPNuJ9f5iLUA4xuLj5gzmyF0N5ODOSCn1Iq","fotoPerfil":"5ba010b336931.JPG"}
+{"username":"Silvia","email":"silvia@hotmail.com","password":"$2y$10$6kjffy8yJ6sJ6HTwu0ITpeTtO7QMa6tNx4gTbs9ERJWZPaVjqIrYO","fotoPerfil":"5ba010d66bee7.JPG"}
+{"username":"Joaquin","email":"joaquin@hotmail.com","password":"$2y$10$pIKB.cu0JKO42g8XlSYgCO0Sq08pPFSlox0B4L2PfRgWbVLBoy4vS","fecha":"111111111","fotoPerfil":"5ba015c446c17.JPG"}
+{"username":"Claudia","email":"clau@hotmail.com","password":"$2y$10$sM..54BsksV1wM.58NNr3ukQ8AfOQvkHcgOaXQ5QolmfBdceISuh2","fecha":"111111111","fotoPerfil":"5ba016982465c.JPG"}
