@@ -19,6 +19,14 @@
         if ($verifica) {
             $_SESSION['usuario'] = traerUsuario($_POST['email']);
             redirect('bienvenido.php');
+
+        if ($_POST['remember'] === true) {
+            $cookie_name='username';
+            $cookie_value= '';
+
+            $expira =  time() + 3600;
+            setcookie('username',$cookie_value,$expira); }    
+        
         } else {
             // De no ser así, guardamos un error en el array de errores
             $errores['email'] = "Usuario o contraseña incorrecto";
