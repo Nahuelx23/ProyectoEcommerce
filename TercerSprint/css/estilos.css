@@ -1,0 +1,843 @@
+/* ---  SETEO GENERAL ---- */	
+
+*{ box-sizing: border-box; }
+a{text-decoration: none;}
+
+body{
+	width: 100%;
+	margin: 0;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+ul > li{
+	list-style: none;
+}
+
+input::placeholder{ 
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* ---  FIN SETEO  ---- */	
+
+/* --- HEADER --- */
+.main-header {
+	margin-top:5px;
+	margin-bottom: 10px; 
+	display: flex;
+	flex-direction: row;
+}
+	
+.nav-logo-icon {
+	width:100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.cajalogo {
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.logo {
+	width: 70%;
+	max-width: 200px;	
+}
+.nav-iconos {
+	width: 50vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+.nav-iconos > ul {
+	padding:0px;
+	display:flex;
+	align-items: flex-end;
+}
+.nav-iconos > ul > li {
+	flex-direction: row;
+	list-style-type: none;
+	padding: 0px 5px 0px 5px ;
+}
+.nav-iconos > ul > li > a {
+	text-align: center;
+	font-size: 0.8em;
+	color:black;
+}
+
+.nav-iconos img {
+	width: 5vw;
+	max-width: 30px;
+}
+			/* segunda linea del header */
+
+.nav-menu {
+	width: 60vw;
+	margin:0px;
+	padding:0px;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+}
+.nav-menu > li {
+	justify-content: flex-end;
+	list-style-type:none;
+	text-align: center;
+	font-size: 0.8em;
+	margin: 0px;
+}
+
+.nav-menu > li > a {
+	text-align: center;
+	text-transform: uppercase;
+    color:black;
+    margin: 0 5px;
+}
+
+.nav-menu a:hover{
+    color: cadetblue;
+}
+
+.active-menu > a{
+    color: cadetblue !important;
+}
+			/* BARRA DE BUSQUEDA */
+
+.buscador-completo {
+	width: 30vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	position: absolute;
+    right: 5px;
+    top: 60px;
+}
+.buscador-completo input {
+	width: 70%;
+	border:solid grey 1px;
+	border-radius: 5px;
+}
+.buscador-completo button {
+	background-color: white;
+	border:solid grey 0.7;
+	border-radius: 5px;
+	padding:0px;
+	margin:0px;
+}
+
+/* ---  FIN DEL HEADER ---- */
+
+
+/* ---  BANNER ---- */	
+.banner{
+    height: 300px;
+    background-image: url("../imagenes/banner.png"); 
+	background-repeat: no-repeat;  
+	background-size: cover;
+    background-position: center; 		
+    
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+    justify-content: center; 
+}
+
+.BannerInfo{
+    margin: 5px;      
+}
+
+.BannerInfo > h1 {
+	width: 47vw; 		
+	color: rgb(241, 241, 241);			
+	text-transform: uppercase;
+    font-size: 1.5em; 		
+    margin: 0 0 30px 0;
+}
+
+.BannerInfo > a{
+    padding: 8px 16px;
+    background-color: cadetblue;
+    color: whitesmoke;
+    font-weight: bold;
+    /* display: inline-block; */
+    border-radius: 4px;
+}
+
+.BannerInfo > a:hover{
+    background-color: black;
+    border: 1px solid cadetblue;    
+}
+
+/* ---  FIN BANNER ---- */	
+
+/* ---  HOME ---- */	
+
+.IntroText {
+	text-align: center;
+	margin: 30px 20px;
+}
+
+.IntroText p{
+	color: #a0a0a0;
+	/* padding-bottom: 6px; */
+}
+
+.lineatxt{
+	border-bottom: 1.5px solid black;
+	width: 150px;
+	margin: 0 auto;
+}
+
+.Sale{
+	width: 100%;
+	padding: 0 20px;
+}
+.Contenedor h2{
+	text-align: center;
+	text-transform: uppercase;
+	color: crimson;
+	font-size: 2em;
+}
+.Sale img{
+	width: 100%;
+	border-radius: 5%;
+	border: 2px solid rgb(219, 209, 209);
+}
+.Productos{
+	text-align: center;
+	margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+
+.Productos:last-child{
+    border: none;
+}
+
+.Productos h3{
+    font-size: 1.6em;
+    margin: 0;
+    line-height: 47px; 
+}
+
+.Productos p{
+	color: cadetblue;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.Productos a{
+	text-transform: uppercase;
+	background-color: cadetblue;
+	padding: 10px 20px;
+	color: white;
+	display: inline-block;
+}
+
+.Productos a:hover{
+	background-color: rgb(207, 204, 204);
+    color: black;
+}
+
+.ProdExt{
+	display: none;
+}
+
+.SeccionesProd {
+	background-color: #f5f7f9;
+	width: 100%;
+	padding: 15px 20px;
+	text-align: center;
+}
+
+.SeccionesProd img{
+	width: 100%;
+}
+
+.Btn-Ext{
+	margin: 20px auto 50px auto;
+	text-align: center;		
+}
+
+.Btn-Ext a{
+	padding: 11px 30px;	
+	display: inline-block;
+	background-color: #f0efef;
+	border-radius: 6px;
+	color: black;
+			
+	/* 
+	min-width: 179px;
+	height: 46px; */
+}
+
+.Btn-Ext a:hover{
+	background-color: #282726;
+	color: whitesmoke;
+}
+/* ---  FIN HOME ---- */	
+
+/* ---  BIENVENIDO  ---   */
+
+.bienvenidoUsuario {
+	/*background-color: rgba(95,158,160,0.5); */  
+	background-color: #f5f7f9;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+ }
+ 
+ .bienvenido {
+	color:crimson;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	
+ }
+ 
+ .bienvenidoRecuadro {
+	border: solid white 2px;
+	font-size: 1.0em;
+	padding: 5vh;
+	margin: 5vh;   
+ }
+ 
+ .bienvenidoRecuadro article img {
+	width: 25vw;
+	border-radius: 50%;
+ }
+
+.bienvenidoDatos>{
+
+ }
+
+
+/* ---  FAQ  ---   */
+
+.bannerfaq img{ 
+	width: 100%;
+}
+.faq {
+	background-color: #f5f7f9;
+}
+
+.faq > ol {
+	padding: 5vh 0vh;
+} 
+.faq > ol > li {
+	margin: auto 10vw;
+}			
+.faq > h2 {
+	color:crimson;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.faq strong {
+	text-transform: uppercase;
+	background-color: cadetblue;
+	color:white;
+	padding: 5px;
+	font-size: 0.8em;
+}
+
+.faq > ol > li > p {
+	font-size: 0.7em;
+}
+.volver {
+	position: absolute;
+	right: 5vw;
+}
+
+.volver > a > i {
+	color: rgb(95,158,160);
+}
+
+/* ---   FIN DEL FAQ   ---   */
+
+/* --- LOGIN - SIGNUP --- */
+
+.mainPage {
+    height: 80vh;	 
+    background-color: rgba(95, 158, 160,0.5); 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.mainContainer{ 
+    width: 100%;
+    max-width: 540px;
+    margin: auto;
+    min-height: 300px;
+    background-color: white;
+}
+
+/* --- FIN LOGIN - SIGNUP --- */
+
+/* --- SIGN UP  ---- */
+
+.mainSignUp{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 96%;
+    height: 85px;
+    margin: 0 auto;
+    border: 1px grey;
+}
+
+.tituloSignUp{
+    font-size: 2em; 
+    color:crimson;
+    margin: 0px;
+    font-weight: 400 ;
+}
+
+.subTituloSignUp{
+    font-size: 1em;
+    margin: 0px 0px; 
+    font-weight: 400;
+}
+
+.mainFormSignUp{
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.infoSpaceSignUp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    margin: auto;
+}
+
+.inputNombre{
+    margin: auto 0px;
+    width: 48%;
+    height: 35px;
+    text-align: center;
+}
+
+.inputApellido{
+    margin: auto 0px;
+    width: 48%;
+    height: 35px;
+    text-align: center;
+}
+
+.inputMail{
+    margin: auto;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+}
+
+.inputNacimiento{
+    margin: auto;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+}
+
+.inputContraseña{
+    margin: auto 0px;
+    width: 48%;
+    height: 35px;
+    text-align: center;
+}
+
+.inputReContraseña{
+    margin: auto 0px;
+    width: 48%;
+    height: 35px;
+    text-align: center;
+}
+
+.infoSpaceGenero{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 48%;
+    height: 60px;
+    margin: auto 0px;
+}
+
+.textGenero{
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+}
+
+.generoButtons{
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+}
+
+.infoTerminosCondiciones{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    height: 20px;
+    margin: 20px 0px 10px 0px;
+}
+
+.terminosCondiciones{
+    font-size: 12px;
+}
+
+.checkTerminos{
+    margin: 0px 0px 2px 15px;
+}
+
+.buttonSendSignIn{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 300;
+    bottom: 10px;
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 10px auto 20px auto;
+    padding: 0px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(95, 158, 160);
+}
+/* --- FIN REGISTER --- */
+
+/* LOGIN */
+.mainLogin{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 96%;
+    height: 85px;
+    margin: 0 auto;
+    border: 1px grey;
+}
+
+.tituloLogin{
+    font-size: 2em; 
+    color:crimson;  
+    margin: 0px;
+    font-weight: 400 ;
+    text-align: center;
+}
+
+.subTituloLogin{
+    font-size: 1em;
+    margin: 0px 0px; 
+    font-weight: 400;
+}
+
+.mainFormLogin{
+    width: 96%;
+    margin: 0 auto;
+}
+
+.infoSpaceLogin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    margin: auto;
+}
+
+.inputMail2{
+    margin: auto;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+}
+
+.inputContraseña2{
+    margin: auto;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+}
+
+.infoRememberMe{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 94%;
+    height: 20px;
+    margin: 20px 0px 10px 0px;
+}
+
+.rememberMe{
+    font-size: 12px;
+}
+
+.checkRemember{
+    margin: 0px 0px 2px 15px;
+}
+
+.buttonSendLogin{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 300;
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 10px auto 20px auto;
+    padding: 0px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(95, 158, 160);
+}
+
+.olvidoUsuarioContraseña {
+	width: 100%;
+	font-size: 0.9em;
+	font-style: italic;
+	text-decoration: underline;
+	margin: 10px auto 20px auto;
+    text-align: center;
+}	
+.olvidoUsuario {
+	color:grey;
+}
+
+/* ---  FOOTER ---- */	
+footer{
+	background-color: black;
+	color: white;
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+/* ---  FIN FOOTER ---- */	
+
+/*  ---  SHOP & CONTACTOS  ---   */
+
+.leyendaShop {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	background-color: rgba(95,158,160,0.5);
+}
+.leyenda1 {
+	border:solid white 2px;
+	padding: 5vh;
+	margin: 5vh;
+}
+
+.leyendaContactos {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	background-color: rgba(95,158,160,0.5);
+}
+.leyenda2 {
+	border:solid white 2px;
+	padding: 5vh;
+	margin: 5vh;
+}
+
+/*  ---  SHOP & CONTACTOS  ---   */
+
+
+/*============================*/
+/*  ---  1° MediaQuery  ---   */
+/*============================*/
+@media (min-width: 540px){  
+
+/*     ---  HEADER  ---   */
+	.nav-menu {
+	width: 60vw;
+	max-width:330px;
+	justify-content: space-between;
+	}
+
+	.nav-menu > li {
+	font-size: 1em;
+	}	
+/*   ---  FIN DE HEADER  ---   */
+
+/* ---- BANNER ---- */
+.banner{
+    height: 450px;
+}
+
+.BannerInfo > h1 {
+    font-size: 1.8em;
+    width: 45vw;
+    margin-bottom: 60px;
+}
+/* ---- FIN DE BANNER ---- */
+
+/* ---  HOME ---- */	
+	.Sale{
+	  display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+	}
+
+	.Productos{
+		width: 28%;
+        margin: 0 auto;
+        border: none;
+	}
+	
+    .Productos h3, p{
+        font-size: 1.3em;
+    }
+    
+	.SeccionesProd{
+	  display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+	}
+/* ---  FIN HOME ---- */	
+
+/* --- LOGIN - SIGNUP ---  */
+    .mainContainer{
+        background-color: white;
+        border-radius: 4px;
+        margin: 20px auto;
+        }
+    .mainPage {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;  
+    }
+/* --- FIN LOGIN - SIGNUP ---  */
+
+/* --- FAQ ---  */
+.faq {
+	background-color: #f5f7f9;
+}
+/* --- FIN FAQ ---  */
+
+}
+
+/*============================*/
+/*  ---  2° MediaQuery  ---   */
+/*============================*/
+@media (min-width: 960px){
+
+/*  --- HEADER --- */
+	.nav-logo-icon {
+	justify-content: space-between;
+	}
+	.cajalogo {
+	width: 25vw;
+	}
+	.logo {
+	width: 50%;
+	min-width: 200px;
+	max-width: 300px;
+	order:1;
+	}
+	.nav-menu {
+	width: 40vw;
+	order:2;
+	justify-content: space-between;
+	}
+	.nav-menu > li {
+	font-size: 1.1em;
+	}
+	.nav-iconos {
+	width: 20vw;
+	order:3;
+	}
+	.buscador-completo {
+	position:unset;
+	width: 30px;
+	order:4;	
+	}
+	.buscador-completo input {
+	display: none;
+	}
+	.buscador-completo button {
+	order:4;
+	width: 20px;
+	padding:5px;
+	margin-right: 20px;
+	}
+/* --- FIN DE HEADER --- */
+
+/* ---  HOME ---- */
+	.Contenedor{
+		max-width: 1600px;
+		margin: 0 auto;
+    }
+    
+    .banner{
+        height: 600px;
+    }
+
+    .BannerInfo{
+        margin: 0 0 0 15px;
+    }
+
+	.BannerInfo > h1 { 			
+        font-size: 2.3em;
+        width: 47vh;					
+    }
+    
+    .BannerInfo > a{
+        font-size: 1.3em;
+	}
+	
+	.ProdExt{
+		display: block;
+	}
+
+	.Productos{
+		width: 18%;
+	}
+
+/* ---  FIN HOME ---- */		
+
+/* ---    FAQ   ---  */
+	.faq {
+	background-color: #f5f7f9;	
+	width: 100vw;	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	}
+	.faq ol h2 {
+	font-size: 1.5em;
+	}
+	.faq  ol  li {
+	width: 80%;
+	background-color: unset;
+	position: unset;
+	font-size: 1.2em;
+	}		
+	.faq ol li p {
+		font-size: 0.8em;
+	}	
+/* ---     FIN DEL FAQ    ---   */
+}
